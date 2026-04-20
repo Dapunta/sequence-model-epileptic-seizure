@@ -140,7 +140,7 @@ Semua notebook mencatat metrik berikut:
 ## 6. Arsitektur Tiap Model
 
 ## 6.1 RNN
-File: [`Epileptic_EEG_RNN.ipynb`](./Epileptic_EEG_RNN.ipynb)
+File: [`Epileptic_EEG_RNN.ipynb`](./notebooks/Epileptic_EEG_RNN.ipynb)
 
 ### Konfigurasi utama
 - recurrent layer: **Bidirectional SimpleRNN**
@@ -171,7 +171,7 @@ File: [`Epileptic_EEG_RNN.ipynb`](./Epileptic_EEG_RNN.ipynb)
 ---
 
 ## 6.2 LSTM
-File: [`Epileptic_EEG_LSTM.ipynb`](./Epileptic_EEG_LSTM.ipynb)
+File: [`Epileptic_EEG_LSTM.ipynb`](./notebooks/Epileptic_EEG_LSTM.ipynb)
 
 ### Konfigurasi utama
 - recurrent layer: **LSTM satu arah**
@@ -201,7 +201,7 @@ File: [`Epileptic_EEG_LSTM.ipynb`](./Epileptic_EEG_LSTM.ipynb)
 ---
 
 ## 6.3 BiLSTM
-File: [`Epileptic_EEG_BiLSTM.ipynb`](./Epileptic_EEG_BiLSTM.ipynb)
+File: [`Epileptic_EEG_BiLSTM.ipynb`](./notebooks/Epileptic_EEG_BiLSTM.ipynb)
 
 ### Konfigurasi utama
 - recurrent layer: **Bidirectional LSTM**
@@ -232,7 +232,7 @@ File: [`Epileptic_EEG_BiLSTM.ipynb`](./Epileptic_EEG_BiLSTM.ipynb)
 ---
 
 ## 6.4 GRU
-File: [`Epileptic_EEG_GRU.ipynb`](./Epileptic_EEG_GRU.ipynb)
+File: [`Epileptic_EEG_GRU.ipynb`](./notebooks/Epileptic_EEG_GRU.ipynb)
 
 ### Konfigurasi utama
 - recurrent layer: **GRU satu arah**
@@ -263,7 +263,7 @@ File: [`Epileptic_EEG_GRU.ipynb`](./Epileptic_EEG_GRU.ipynb)
 ---
 
 ## 6.5 BiGRU
-File: [`Epileptic_EEG_BiGRU.ipynb`](./Epileptic_EEG_BiGRU.ipynb)
+File: [`Epileptic_EEG_BiGRU.ipynb`](./notebooks/Epileptic_EEG_BiGRU.ipynb)
 
 ### Konfigurasi utama
 - recurrent layer: **Bidirectional GRU**
@@ -306,18 +306,18 @@ File: [`Epileptic_EEG_BiGRU.ipynb`](./Epileptic_EEG_BiGRU.ipynb)
 | BiGRU | 0.756522 | 0.756522 | 0.759330 | 0.756522 | 0.757085 | 0.759330 | 0.756522 | 0.757085 | 0.949573 | 0.949573 |
 
 #### Ranking berdasarkan accuracy
-1. **RNN** — 0.773333  
-2. **BiGRU** — 0.756522  
-3. **GRU** — 0.749565  
-4. **LSTM** — 0.733333  
-5. **BiLSTM** — 0.703188  
+1. **RNN** - 0.773333  
+2. **BiGRU** - 0.756522  
+3. **GRU** - 0.749565  
+4. **LSTM** - 0.733333  
+5. **BiLSTM** - 0.703188  
 
 #### Ranking berdasarkan F1 Macro
-1. **RNN** — 0.773065  
-2. **BiGRU** — 0.757085  
-3. **GRU** — 0.749114  
-4. **LSTM** — 0.731821  
-5. **BiLSTM** — 0.696228  
+1. **RNN** - 0.773065  
+2. **BiGRU** - 0.757085  
+3. **GRU** - 0.749114  
+4. **LSTM** - 0.731821  
+5. **BiLSTM** - 0.696228  
 
 ### 7.2 Ringkasan Classification Report
 
@@ -454,11 +454,11 @@ Dengan demikian, pada dataset dan konfigurasi eksperimen ini, **RNN sederhana be
 
 ## 13. File Project
 
-- [`Epileptic_EEG_RNN.ipynb`](./Epileptic_EEG_RNN.ipynb)
-- [`Epileptic_EEG_LSTM.ipynb`](./Epileptic_EEG_LSTM.ipynb)
-- [`Epileptic_EEG_BiLSTM.ipynb`](./Epileptic_EEG_BiLSTM.ipynb)
-- [`Epileptic_EEG_GRU.ipynb`](./Epileptic_EEG_GRU.ipynb)
-- [`Epileptic_EEG_BiGRU.ipynb`](./Epileptic_EEG_BiGRU.ipynb)
+- [`Epileptic_EEG_RNN.ipynb`](./notebooks/Epileptic_EEG_RNN.ipynb)
+- [`Epileptic_EEG_LSTM.ipynb`](./notebooks/Epileptic_EEG_LSTM.ipynb)
+- [`Epileptic_EEG_BiLSTM.ipynb`](./notebooks/Epileptic_EEG_BiLSTM.ipynb)
+- [`Epileptic_EEG_GRU.ipynb`](./notebooks/Epileptic_EEG_GRU.ipynb)
+- [`Epileptic_EEG_BiGRU.ipynb`](./notebooks/Epileptic_EEG_BiGRU.ipynb)
 
 ---
 
