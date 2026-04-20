@@ -1,0 +1,43 @@
+Nama Dataset : Epileptic Seizure Recognition
+
+Link Dataset :
+- https://www.kaggle.com/datasets/yasserhessein/epileptic-seizure-recognition
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9405181/
+- https://www.upf.edu/web/ntsa/downloads/-/asset_publisher/xvT6E4pczrBw/content/2001-indications-of-nonlinear-deterministic-and-finite-dimensional-structures-in-time-series-of-brain-electrical-activity-dependence-on-recording-regi
+
+Deskripsi Data :
+Dataset berisi sinyal electroencephalogram (EEG) untuk pengenalan kejang epilepsi. Versi yang umum dipakai di Kaggle/UCI merupakan hasil restrukturisasi dari Bonn EEG dataset, dengan total 11.500 sampel. Setiap baris merepresentasikan 1 segmen sinyal EEG dengan 178 titik data/atribut sebagai input sequence dan 1 kolom label sebagai output, sehingga totalnya 179 kolom. Dataset ini digunakan untuk multiclass classification dengan 5 kelas. Dataset asli terdiri dari 5 set, masing-masing berisi 100 file sinyal, dan tiap file berisi sekitar 4096/4097 titik sinyal. Pada versi UCI/Kaggle, tiap sinyal dibagi menjadi 23 segmen sehingga distribusinya menjadi relatif seimbang, sekitar 2300 sampel per kelas. Label target pada versi Kaggle/UCI dikodekan sebagai: 1 = seizure activity, 2 = EEG dari area tumor, 3 = EEG dari area otak sehat pada pasien epilepsi, 4 = healthy subject dengan mata tertutup, dan 5 = healthy subject dengan mata terbuka.
+
+Pustaka (judul, pengarang, nama jurnal, tahun) :
+
+[1]
+Judul: Indications of nonlinear deterministic and finite-dimensional structures in time series of brain electrical activity: Dependence on recording region and brain state
+Pengarang: R. G. Andrzejak, K. Lehnertz, C. Rieke, F. Mormann, P. David, C. E. Elger
+Nama Jurnal: Physical Review E
+Tahun: 2001
+
+[2]
+Judul: Classification of epileptic seizure dataset using different machine learning algorithms
+Pengarang: Khaled Mohamad Almustafa
+Nama Jurnal: Informatics in Medicine Unlocked
+Tahun: 2020
+
+Link Pustaka :
+- https://www.sciencedirect.com/science/article/pii/S2352914820305943
+- https://journals.aps.org/pre/abstract/10.1103/PhysRevE.64.061907
+
+[ PROJECT ]
+
+RNN : https://www.kaggle.com/code/dapuntaxd/epileptic-eeg-rnn
+LSTM : https://www.kaggle.com/code/dapuntaxd/epileptic-eeg-lstm
+BiLSTM : https://www.kaggle.com/code/dapuntaxd/epileptic-eeg-bilstm
+GRU : https://www.kaggle.com/code/dapuntaxd/epileptic-eeg-gru
+BiGRU : https://www.kaggle.com/code/dapuntaxd/epileptic-eeg-bigru
+
+
+
+
+
+
+
+
