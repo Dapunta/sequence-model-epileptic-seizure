@@ -34,10 +34,4 @@ BiLSTM : https://www.kaggle.com/code/dapuntaxd/epileptic-eeg-bilstm
 GRU : https://www.kaggle.com/code/dapuntaxd/epileptic-eeg-gru
 BiGRU : https://www.kaggle.com/code/dapuntaxd/epileptic-eeg-bigru
 
-
-
-
-
-
-
-
+Github : https://github.com/Dapunta/sequence-model-epileptic-seizure
